@@ -29,7 +29,7 @@ In Sound es un sitio web diseñado para ofrecer servicios de iluminación, video
 
 1. Clonar este repositorio:
     ```bash
-    git clone https://github.com/usuario/AppWeb-Project-Insound.git
+    git clone https://github.com/EduardoDevelopment/AppWeb-Project-Insound.git
     ```
 
 2. Instalar un servidor local como [XAMPP](https://www.apachefriends.org/index.html)
