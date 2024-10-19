@@ -8,7 +8,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Events In Sound</title>
+  <title>In Sound</title>
   <!-- Enlace a Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/7e99496f14.js" crossorigin="anonymous"></script>
