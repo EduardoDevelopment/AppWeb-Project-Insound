@@ -1,0 +1,38 @@
+2024-06-18 22:35:38 - Usuario lalo ha iniciado sesión exitosamente
+2024-06-18 22:35:45 - Usuario lalo ha iniciado sesión exitosamente
+2024-06-18 22:35:52 - Intento de inicio de sesión fallido para lalo
+2024-06-18 22:35:57 - Intento de inicio de sesión fallido para lalo
+2024-06-18 22:36:00 - Intento de inicio de sesión fallido para lalo
+2024-06-18 22:36:09 - Usuario lalo ha alcanzado el límite de intentos fallidos y se ha enviado un correo electrónico a lalokeras677@gmail.com
+2024-06-18 22:39:40 - Usuario lalo ha alcanzado el límite de intentos fallidos y se ha enviado un correo electrónico a lalokeras677@gmail.com
+2024-06-18 22:40:43 - Usuario lalo ha iniciado sesión exitosamente
+2024-06-18 23:58:22 - Intento de inicio de sesión fallido para un usuario no registrado: alfredo
+2024-06-18 23:59:24 - Intento de inicio de sesión fallido para un usuario no registrado: alfredo
+2024-06-19 00:05:07 - Usuario alfredo ha iniciado sesión exitosamente
+2024-06-19 00:06:05 - Intento de inicio de sesión fallido para alfredo
+2024-06-19 00:06:12 - Intento de inicio de sesión fallido para alfredo
+2024-06-19 00:06:48 - Intento de inicio de sesión fallido para alfredo
+2024-06-19 00:07:19 - Usuario alfredo ha alcanzado el límite de intentos fallidos y se ha enviado un correo electrónico a dg20u@proton.me
+2024-06-19 01:40:01 - Usuario profe ha iniciado sesión exitosamente
+2024-06-19 01:44:26 - Intento de inicio de sesión fallido para profe
+2024-06-19 01:44:31 - Intento de inicio de sesión fallido para profe
+2024-06-19 01:44:37 - Intento de inicio de sesión fallido para profe
+2024-06-19 01:44:49 - Usuario profe ha alcanzado el límite de intentos fallidos y se ha enviado un correo electrónico a dg20u@proton.me
+2024-06-19 05:09:10 - Usuario eduardo ha iniciado sesión exitosamente
+2024-06-19 05:09:26 - Intento de inicio de sesión fallido para eduardo
+2024-06-19 05:09:33 - Intento de inicio de sesión fallido para eduardo
+2024-06-19 05:09:37 - Intento de inicio de sesión fallido para eduardo
+2024-06-19 05:09:44 - Usuario eduardo ha alcanzado el límite de intentos fallidos y se ha enviado un correo electrónico a cuentaprime90012@gmail.com
+2024-06-19 05:10:46 - Intento de inicio de sesión fallido para eduardo
+2024-06-19 05:10:51 - Usuario eduardo ha iniciado sesión exitosamente
+2024-07-01 16:42:40 - Intento de inicio de sesión fallido para lalo
+2024-07-01 16:42:46 - Usuario lalo ha iniciado sesión exitosamente
+2024-07-01 16:48:17 - Intento de inicio de sesión fallido para lalo
+2024-07-01 16:48:23 - Usuario lalo ha iniciado sesión exitosamente
+2024-07-04 21:24:04 - Intento de inicio de sesión fallido para lalo
+2024-07-04 21:24:09 - Usuario lalo ha iniciado sesión exitosamente
+2024-07-04 23:57:27 - Intento de inicio de sesión fallido para lalo
+2024-07-04 23:57:34 - Usuario lalo ha iniciado sesión exitosamente
+2024-07-04 23:58:27 - Intento de inicio de sesión fallido para victor
+2024-07-04 23:58:34 - Usuario victor ha iniciado sesión exitosamente
+2024-07-05 00:01:06 - Usuario lalo ha iniciado sesión exitosamente

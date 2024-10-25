@@ -1,0 +1,212 @@
+/* Define estilos globales para el cuerpo de la página */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+	color: #000000;
+}
+
+/* Define estilos para el encabezado de la página */
+header {
+	display: flex;
+	justify-content: center;
+	/* Centra horizontalmente el contenido */
+	align-items: center;
+	/* Centra verticalmente el contenido */
+	height: 80px;
+	/* Altura del encabezado */
+}
+
+/* Define estilos para la barra de navegación */
+nav {
+	display: flex;
+	justify-content: space-between;
+	/* Distribuye los elementos de manera uniforme */
+	align-items: center;
+	width: 80%;
+	/* Ancho de la barra de navegación */
+}
+
+.textowo {
+	justify-content: center;
+	/* Centra horizontalmente el contenido */
+}
+
+/* Define estilos para el botón de compra */
+.btn-rainbow:hover {
+	animation: cambiarColor 3s linear infinite;
+}
+
+/* Define una animación para el botón de compra */
+@keyframes cambiarColor {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	50% {
+		background-position: 100% 100%;
+	}
+
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+/* Define estilos para los botones en general */
+.btn {
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	/* Agrega una transición suave */
+}
+
+.btn:hover {
+	background-color: #0069d9;
+}
+
+/* Define estilos para el logo de la página */
+.logo a {
+	color: #000000;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: #c3d3ff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+/* Define estilos para los enlaces de la barra de navegación */
+.nav-links {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+	/* Ancho de la lista de enlaces */
+}
+
+.nav-links li {
+	margin: 0;
+}
+
+.nav-links li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.3s ease;
+	border-radius: 20px;
+}
+
+.nav-links li a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/* Define estilos para el contenido principal de la página */
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 80px - 100px);
+	/* Altura dinámica */
+}
+
+/* Define estilos para las imágenes de las tarjetas */
+.card-body {
+	padding-top: 100px;
+}
+
+/* Define estilos para el pie de página */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	position: fixed;
+	/* Fija el pie de página en la parte inferior de la página */
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+/* Define estilos para el contenido principal de la página (nuevamente) */
+.content {
+	margin-top: 50px;
+	/* Agrega un margen superior */
+}
+
+/* Define estilos para los enlaces de redes sociales */
+footer p {
+	font-size: 0.8rem;
+}
+
+/* Se define una sección que utiliza el efecto "parallax" para mostrar una imagen de fondo */
+.parallax {
+	height: 500px;
+	/* Altura de la sección */
+	background-image: url('../img/img.png');
+	/* Imagen de fondo */
+	background-size: 80%;
+	/* Tamaño de la imagen de fondo */
+	background-position: center;
+	/* Posición de la imagen de fondo */
+	background-attachment: fixed;
+	/* Fijar la imagen de fondo para el efecto "parallax" */
+	position: relative;
+	/* Posición relativa para colocar otros elementos dentro */
+}
+
+/* Se define un pseudo-elemento ":before" para agregar un filtro oscuro sobre la imagen de fondo */
+.parallax:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Filtro oscuro con transparencia */
+}
+
+/* Se define un elemento para centrar texto dentro de la sección */
+.parallax-text {
+	position: absolute;
+	top: 50%;
+	/* Posicionamiento vertical en el centro de la sección */
+	left: 50%;
+	/* Posicionamiento horizontal en el centro de la sección */
+	transform: translate(-50%, -50%);
+	/* Se utiliza "transform" para centrar el texto */
+	text-align: center;
+	/* Centrar el texto horizontalmente */
+	color: #fff;
+	/* Color del texto */
+}
+
+/* Se define un estilo para las imágenes de las cartas */
+.card-img-top {
+	min-width: 100%;
+	/* Ancho mínimo de la imagen */
+	min-height: 200px;
+	/* Altura mínima de la imagen */
+	object-fit: cover;
+	/* Ajuste la imagen para cubrir todo el elemento */
+	transition: transform 0.1s ease-in-out;
+	/* Transición al pasar el cursor por encima de la imagen */
+	border-radius: 10px;
+	/* Borde redondeado para la imagen */
+}
+
+/* Se define un efecto de "zoom" para las imágenes de las cartas cuando el cursor pasa por encima */
+.card-img-top:hover {
+	transform: scale(1.1);
+	/* Aumenta el tamaño de la imagen en un 10% */
+}

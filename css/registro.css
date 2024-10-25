@@ -1,0 +1,60 @@
+/* Estilo para el formulario de registro */
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 450px;
+	width: 400px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+}
+
+
+table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+
+h4 {
+	margin-top: 0;
+	text-align: center;
+}
+
+td {
+	padding: 4px;
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	color: black;
+}
+
+p {
+    text-align: center;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
