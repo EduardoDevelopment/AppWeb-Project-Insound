@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once 'LoggerObserver.php';
+require_once 'Log.php';
 
 $dbhost = "localhost";
 $dbuser = "root";
