@@ -1,3 +1,21 @@
+<?php
+session_start();
+include('config/confiig.php'); 
+if (isset($_SESSION['access_token'])) {
+    session_destroy(); // Esto destruye toda la sesión, incluyendo el access_token de Google
+    header("Location: login.php"); // Redirige al inicio para recargar la página y mostrar el botón
+    exit();
+}
+
+$login_button = '';
+
+if (!isset($_SESSION['access_token'])) {
+    $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="block w-full bg-red-500 text-white text-center py-2 px-4 rounded-md shadow-md hover:bg-red-600">
+        <i class="fa fa-google"></i> Inicia sesión con Google
+    </a>';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -203,6 +221,15 @@
                 </div>
             </div>
             <p class="mt-4 text-center">¿No tienes cuenta? <a href="registro.php" class="text-gray-500 hover:text-black">¡Regístrate aquí!</a></p>
+            <div class="mt-6">
+                <!-- Botón de inicio de sesión con Google -->
+                <?php if ($login_button != '') {
+                    echo $login_button;
+                } else {
+                    echo '<p class="text-center text-green-500">Ya has iniciado sesión con Google. <a href="index.php" class="underline">Ir a inicio</a></p>';
+                } ?>
+
+            </div>
         </form>
     </div>
 
