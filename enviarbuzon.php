@@ -44,6 +44,8 @@
         <i class="fa-solid fa-house"></i> Inicio</a>
       <a href="compras.php" class="text-white mx-2 p-2 hover:bg-white hover:text-black rounded-full duration-200 ease-in-out">
         <i class="fa-solid fa-book-open"></i> Servicios</a>
+        <a href="/APPWEB-PROJECT-INSOUND/Laravel/insound/resources/views/welcome.blade.php" class="text-white mx-2 p-2 hover:bg-white hover:text-black rounded-full duration-200 ease-in-out">
+        <i class="fa-solid fa-record-vinyl"></i>Paquetes</a>
       <a href="login.php" class="text-white mx-2 p-2 hover:bg-white hover:text-black rounded-full duration-200 ease-in-out">
         <i class="fa-solid fa-door-open"></i></a>
     </div>
@@ -70,6 +72,8 @@
         <i class="fa-solid fa-house"></i> Inicio</a>
       <a href="compras.php" class="text-white bg-gray-800 p-3 rounded-full">
         <i class="fa-solid fa-book-open"></i> Servicios</a>
+        <a href="/APPWEB-PROJECT-INSOUND/Laravel/insound/resources/views/welcome.blade.php" class="text-white bg-gray-800 p-3 rounded-full">
+        <i class="fa-solid fa-record-vinyl"></i>Paquetes</a>
     </div>
     <!-- Botón "Cerrar sesión" -->
     <a href="login.php" class="fixed bottom-4 text-white bg-gray-800 p-4 rounded-full">
