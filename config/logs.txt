@@ -47,3 +47,4 @@
 [2024-11-22 22:00:31] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
 [2024-11-22 22:03:58] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
 [2024-11-22 22:07:43] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
+[2024-11-27 03:05:55] - Inicio de sesión exitoso para el usuario: admin.
