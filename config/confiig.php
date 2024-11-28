@@ -37,7 +37,7 @@ $google_client->setClientId('599516212363-0lohb4s7v65q3nr3acok13s637ao4hjf.apps.
 $google_client->setClientSecret('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');
 
 // Configurar el OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/in%20sound/config/logi.php');
+$google_client->setRedirectUri('http://localhost/APPWEB-PROJECT-INSOUND/config/logi.php');
 
 // Solicitar acceso al correo electrónico y perfil
 $google_client->addScope('email');
