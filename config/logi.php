@@ -38,20 +38,20 @@ if (isset($_GET["code"])) {
         $google_last_name = $data['family_name'] ?? '';
 
         // Verifica si el usuario ya existe en la base de datos
-        $stmt = $conn->prepare("SELECT * FROM login WHERE usuario = ? AND email = ?");
-        $stmt->bind_param("ss", $google_email, $google_email);
+        $stmt = $conn->prepare("SELECT * FROM login WHERE email = ?");
+        $stmt->bind_param("s", $google_email);
         $stmt->execute();
         $resultado = $stmt->get_result();
-        $user = $resultado->fetch_assoc();
 
-        if ($user) {
-            // Si el usuario ya existe, inicia sesión
-            registrarLog("Inicio de sesión exitoso con Google para el usuario: $google_email.");
+        if ($resultado->num_rows > 0) {
+            // Usuario ya existe, inicia sesión
+            $user = $resultado->fetch_assoc();
+            registrarLog("Inicio de sesión con Google para el usuario existente: $google_email.");
             $_SESSION['usuario'] = $user['usuario'];
             $_SESSION['role'] = $user['role'];
 
             // Redirigir al inicio después de iniciar sesión
-            header('Location: http://localhost/in%20sound/index.php');
+            header('Location: http://localhost/APPWEB-PROJECT-INSOUND/index.php');
             exit();
         } else {
             // Si el usuario no existe, registrarlo
@@ -67,7 +67,7 @@ if (isset($_GET["code"])) {
                 $_SESSION['role'] = $role;
 
                 // Redirigir al inicio después de registrar
-                header('Location: http://localhost/in%20sound/index.php');
+                header('Location: http://localhost/APPWEB-PROJECT-INSOUND/index.php');
                 exit();
             } else {
                 registrarLog("Error al registrar el usuario: " . $conn->error);
@@ -109,7 +109,7 @@ if (isset($_POST['txtusuario']) && isset($_POST['txtpassword'])) {
             $_SESSION['usuario'] = $nombre;
             $_SESSION['role'] = $user['role'];
 
-            echo json_encode(array('success' => true, 'redirect' => 'http://localhost/in%20sound/index.php'));
+            echo json_encode(array('success' => true, 'redirect' => 'http://localhost/APPWEB-PROJECT-INSOUND/index.php'));
             exit();
         } else {
             registrarLog("Intento fallido de inicio de sesión para el usuario: $nombre.");
