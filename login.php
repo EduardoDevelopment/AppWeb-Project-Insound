@@ -226,7 +226,7 @@ if (!isset($_SESSION['access_token'])) {
                 <?php if ($login_button != '') {
                     echo $login_button;
                 } else {
-                    echo '<p class="text-center text-green-500">Ya has iniciado sesión con Google. <a href="index.php" class="underline">Ir a inicio</a></p>';
+                    echo '<p class="text-center text-green-500">Ya has iniciado sesión con Google. <a href="http://localhost//APPWEB-PROJECT-INSOUND/index.php" class="underline">Ir a inicio</a></p>';
                 } ?>
 
             </div>
