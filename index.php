@@ -13,6 +13,7 @@ session_start();
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/7e99496f14.js" crossorigin="anonymous"></script>
   <link rel="icon" href="img/logo.webp" type="image/webp">
+  <link rel="manifest" href="./manifest.json">
   <style>
     body {
       font-family: Arial, sans-serif;

@@ -3,9 +3,7 @@ const urlsToCache = [
     "./",
     "./index.php",
     "./compras.php",
-    "./detalles.php",
-    "./process_enviarbuzon.php",
-
+    
 ];
 
 // Instalar el Service Worker y agregar archivos al caché
@@ -49,7 +47,7 @@ self.addEventListener("fetch", (event) => {
     );
 });
 
-// Escuchar el evento 'push' para notificaciones
+/* escuchar el evento 'push' para notificaciones
 self.addEventListener('push', (event) => {
     let title = 'Nueva Notificación';
     let options = {
@@ -59,4 +57,4 @@ self.addEventListener('push', (event) => {
     };
 
     event.waitUntil(self.registration.showNotification(title, options));
-});
+}); */
