@@ -48,3 +48,9 @@
 [2024-11-22 22:03:58] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
 [2024-11-22 22:07:43] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
 [2024-11-27 03:05:55] - Inicio de sesión exitoso para el usuario: admin.
+[2024-11-29 06:10:25] - Inicio de sesión exitoso para el usuario: admin.
+[2024-11-29 06:11:01] - Nuevo usuario registrado con Google: lalokeras688@gmail.com.
+[2024-11-29 06:11:12] - Nuevo usuario registrado con Google: xiaomirecoverylalo@gmail.com.
+[2024-11-29 06:12:36] - Inicio de sesión exitoso para el usuario: admin.
+[2024-11-29 06:14:47] - Intento de inicio de sesión con usuario no encontrado: lalo.
+[2024-11-29 06:15:09] - Inicio de sesión exitoso para el usuario: luis.
