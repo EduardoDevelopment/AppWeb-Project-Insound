@@ -3,7 +3,9 @@ const urlsToCache = [
     "./",
     "./index.php",
     "./compras.php",
-    
+    "./app.js",
+    "./api_compras.php", // Para CSR
+    "https://cdn.tailwindcss.com",
 ];
 
 // Instalar el Service Worker y agregar archivos al caché
