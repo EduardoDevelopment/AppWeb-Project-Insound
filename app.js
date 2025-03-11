@@ -11,17 +11,18 @@ document.addEventListener("DOMContentLoaded", function () {
     // Función para cargar productos dinámicamente con CSR
     function cargarProductosCSR() {
         fetch("api_compras.php")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Error en la solicitud: " + response.statusText);
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log("Datos cargados con CSR:", data);
-            // Procesar los datos y mostrarlos en el DOM
-        })
-        .catch(error => console.error("Error cargando productos con CSR:", error));
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Error en la solicitud: " + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log("Datos cargados con CSR:", data);
+                // Insertar los datos en el div con id="content"
+                content.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            })
+            .catch(error => console.error("Error cargando productos con CSR:", error));
     }
 
     // Cargar productos CSR después de 3 segundos para mostrar diferencia con SSR
