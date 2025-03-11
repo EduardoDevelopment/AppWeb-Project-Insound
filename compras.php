@@ -220,7 +220,7 @@ require 'config/compraas.php';
       <i class="fa-solid fa-door-open"></i> Cerrar sesión</a>
   </div>
   <!-- Fin de la navegación -->
-
+  
   <div class="main-text text-center mt-24 xl:mt-36">
     <p>
     Somos una empresa profesional de producciones integrales de audio video e iluminación para eventos sociales y masivos con más de 25 años de experiencia en el ramo. 
@@ -231,7 +231,7 @@ require 'config/compraas.php';
     </p>
     <h1 class="main-heading text-center">- SERVICIOS -</h1>
   </div>
-
+  
   <div class="flex flex-wrap xl:mx-40 mt-10 pt-20"> <!-- Añadido pt-20 aquí para dar margen superior -->
   <!-- Bucle foreach para iterar sobre los resultados de la consulta de productos -->
   <?php foreach ($resultado as $row) { ?>
@@ -342,6 +342,7 @@ window.addEventListener('load', () => {
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
   </main>
+  <script src="app.js"></script>
   </body>
 
 </html>
