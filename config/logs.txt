@@ -54,3 +54,10 @@
 [2024-11-29 06:12:36] - Inicio de sesión exitoso para el usuario: admin.
 [2024-11-29 06:14:47] - Intento de inicio de sesión con usuario no encontrado: lalo.
 [2024-11-29 06:15:09] - Inicio de sesión exitoso para el usuario: luis.
+[2025-03-12 01:01:23] - Inicio de sesión exitoso para el usuario: admin.
+[2025-03-12 01:03:23] - Inicio de sesión exitoso para el usuario: admin.
+[2025-03-12 01:04:19] - Inicio de sesión exitoso para el usuario: admin.
+[2025-03-12 01:06:06] - Inicio de sesión exitoso para el usuario: lalo.
+[2025-03-12 01:06:17] - Inicio de sesión exitoso para el usuario: admin.
+[2025-03-12 01:08:26] - Inicio de sesión exitoso para el usuario: lalo.
+[2025-03-12 01:14:27] - Inicio de sesión exitoso para el usuario: lalo.
