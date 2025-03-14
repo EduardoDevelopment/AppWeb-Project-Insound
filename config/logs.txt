@@ -54,3 +54,5 @@
 [2024-11-29 06:12:36] - Inicio de sesión exitoso para el usuario: admin.
 [2024-11-29 06:14:47] - Intento de inicio de sesión con usuario no encontrado: lalo.
 [2024-11-29 06:15:09] - Inicio de sesión exitoso para el usuario: luis.
+[2025-03-14 05:21:33] - Intento de inicio de sesión con usuario no encontrado: lalo.
+[2025-03-14 05:21:41] - Inicio de sesión con Google para el usuario existente: lalokeras677@gmail.com.
