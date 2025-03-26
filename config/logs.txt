@@ -30,35 +30,3 @@
 2024-07-01 16:48:17 - Intento de inicio de sesión fallido para lalo
 2024-07-01 16:48:23 - Usuario lalo ha iniciado sesión exitosamente
 2024-07-04 21:24:04 - Intento de inicio de sesión fallido para lalo
-2024-07-04 21:24:09 - Usuario lalo ha iniciado sesión exitosamente
-2024-07-04 23:57:27 - Intento de inicio de sesión fallido para lalo
-2024-07-04 23:57:34 - Usuario lalo ha iniciado sesión exitosamente
-2024-07-04 23:58:27 - Intento de inicio de sesión fallido para victor
-2024-07-04 23:58:34 - Usuario victor ha iniciado sesión exitosamente
-2024-07-05 00:01:06 - Usuario lalo ha iniciado sesión exitosamente
-2024-11-22 19:20:13 - Inicio de sesión exitoso para el usuario: admin.
-2024-11-22 20:46:20 - Inicio de sesión exitoso para el usuario: admin.
-2024-11-22 21:11:30 - Inicio de sesión exitoso para el usuario: admin.
-2024-11-22 21:16:33 - Inicio de sesión exitoso para el usuario: admin.
-2024-11-22 21:21:36 - Inicio de sesión exitoso para el usuario: luis.
-2024-11-22 21:21:42 - Inicio de sesión exitoso para el usuario: admin.
-[2024-11-22 21:52:33] - Nuevo usuario registrado con Google: cuentaprime90012@gmail.com.
-[2024-11-22 21:52:39] - Inicio de sesión exitoso para el usuario: admin.
-[2024-11-22 22:00:31] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
-[2024-11-22 22:03:58] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
-[2024-11-22 22:07:43] - Error al registrar el usuario: Duplicate entry 'cuentaprime90012@gmail.com' for key 'email'
-[2024-11-27 03:05:55] - Inicio de sesión exitoso para el usuario: admin.
-[2024-11-29 06:10:25] - Inicio de sesión exitoso para el usuario: admin.
-[2024-11-29 06:11:01] - Nuevo usuario registrado con Google: lalokeras688@gmail.com.
-[2024-11-29 06:11:12] - Nuevo usuario registrado con Google: xiaomirecoverylalo@gmail.com.
-[2024-11-29 06:12:36] - Inicio de sesión exitoso para el usuario: admin.
-[2024-11-29 06:14:47] - Intento de inicio de sesión con usuario no encontrado: lalo.
-[2024-11-29 06:15:09] - Inicio de sesión exitoso para el usuario: luis.
-[2025-03-14 05:21:33] - Intento de inicio de sesión con usuario no encontrado: lalo.
-[2025-03-14 05:21:41] - Inicio de sesión con Google para el usuario existente: lalokeras677@gmail.com.
-[2025-03-14 05:25:13] - Intento de inicio de sesión con usuario no encontrado: usuarioprueba.
-[2025-03-14 05:25:18] - Intento fallido de inicio de sesión para el usuario: usuario prueba.
-[2025-03-14 05:28:39] - Inicio de sesión exitoso para el usuario: usuario prueba.
-[2025-03-14 05:35:10] - Nuevo usuario registrado con Google: salacuentanumerouno@gmail.com.
-[2025-03-14 05:35:15] - Inicio de sesión exitoso para el usuario: admin.
-[2025-03-14 05:38:45] - Inicio de sesión exitoso para el usuario: admin.

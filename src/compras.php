@@ -231,7 +231,8 @@ require 'config/compraas.php';
     </p>
     <h1 class="main-heading text-center">- SERVICIOS -</h1>
   </div>
-  
+  <div id="content"></div>
+
   <div class="flex flex-wrap xl:mx-40 mt-10 pt-20"> <!-- Añadido pt-20 aquí para dar margen superior -->
   <!-- Bucle foreach para iterar sobre los resultados de la consulta de productos -->
   <?php foreach ($resultado as $row) { ?>
