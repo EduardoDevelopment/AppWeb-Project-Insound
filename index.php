@@ -245,8 +245,7 @@ session_start();
         <i class="fa-solid fa-user-shield"></i> Administrador
     </a>
 <?php endif; ?>
-      <a href="/APPWEB-PROJECT-INSOUND/Laravel/insound/resources/views/welcome.blade.php" class="text-white mx-2 p-2 hover:bg-white hover:text-black rounded-full duration-200 ease-in-out">
-        <i class="fa-solid fa-record-vinyl"></i>Paquetes</a>
+      
       <a href="login.php" class="text-white mx-2 p-2 hover:bg-white hover:text-black rounded-full duration-200 ease-in-out">
         <i class="fa-solid fa-door-open"></i></a>
     </div>

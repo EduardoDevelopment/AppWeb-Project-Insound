@@ -30,3 +30,23 @@
 2024-07-01 16:48:17 - Intento de inicio de sesión fallido para lalo
 2024-07-01 16:48:23 - Usuario lalo ha iniciado sesión exitosamente
 2024-07-04 21:24:04 - Intento de inicio de sesión fallido para lalo
+[2025-04-09 01:53:43] - Intento fallido de inicio de sesión para el usuario: admin.
+[2025-04-09 01:53:53] - Intento fallido de inicio de sesión para el usuario: admin.
+[2025-04-09 01:54:17] - Inicio de sesión exitoso para el usuario: admin.
+[2025-04-09 01:57:18] - Inicio de sesión exitoso para el usuario: lalo.
+[2025-04-09 01:58:11] - Intento de inicio de sesión con usuario no encontrado: admin.
+[2025-04-09 01:58:14] - Intento de inicio de sesión con usuario no encontrado: admin.
+[2025-04-09 01:58:30] - Inicio de sesión exitoso para el usuario: admin.
+[2025-04-09 01:59:15] - Intento fallido de inicio de sesión para el usuario: lalo.
+[2025-04-09 01:59:16] - Intento fallido de inicio de sesión para el usuario: lalo.
+[2025-04-09 01:59:17] - Intento fallido de inicio de sesión para el usuario: lalo.
+[2025-04-09 01:59:19] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 01:59:23] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 01:59:24] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 01:59:24] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 01:59:24] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 02:03:09] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 02:03:23] - Inicio de sesión exitoso para el usuario: lalo.
+[2025-04-09 02:15:44] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 02:15:45] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.
+[2025-04-09 02:15:45] - Cuenta bloqueada para el usuario: lalo debido a múltiples intentos fallidos.

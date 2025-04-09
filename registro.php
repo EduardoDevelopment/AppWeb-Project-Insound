@@ -211,7 +211,8 @@ processRegistration();
     </style>
 </head>
 
-<body class="bg-cover">
+<body class="bg-cover min-h-screen flex flex-col">
+
     <!-- Contenedor principal -->
     <div class="flex-grow flex items-center justify-center">
         <form action="config/regi.php" method="POST" class="form-container">
@@ -260,12 +261,7 @@ processRegistration();
     </div>
 
     <!-- Footer -->
-    <footer>
-        <h4 class="text-xl font-bold">Events In Sound</h4>
-        <p>Asuncion 324, Aguascalientes</p>
-        <p>Teléfono: 449 288 1786</p>
-    </footer>
-
+   
 </body>
 
 </html>
