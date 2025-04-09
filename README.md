@@ -190,9 +190,8 @@ La base de datos `registros` contiene tablas como:
 
 ## 👨‍💻 Autor
 
-**Nombre:** Tu Nombre Aquí  
-**Correo:** tunombre@correo.com  
-**GitHub:** [@tuusuario](https://github.com/tuusuario)  
+**Nombre:** Jose Eduardo Palacio Macias
+
 
 ---
 
